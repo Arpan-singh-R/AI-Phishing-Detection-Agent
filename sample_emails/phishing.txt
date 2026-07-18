@@ -1,0 +1,14 @@
+From: support@amaz0n.xyz
+Subject: Verify Your Amazon Account
+
+Dear Customer,
+
+Your account has been suspended.
+
+Please verify immediately.
+
+Click here:
+
+http://amaz0n.xyz/login
+
+Attachment: invoice.pdf.exe

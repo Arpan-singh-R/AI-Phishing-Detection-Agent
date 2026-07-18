@@ -1,0 +1,14 @@
+From: support@gmail.com
+Subject: Welcome to Gmail
+
+Hello,
+
+Thank you for creating your Gmail account.
+
+You can access your account anytime at:
+https://mail.google.com
+
+If you did not create this account, please contact our support team.
+
+Regards,
+Google Support
