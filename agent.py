@@ -1,18 +1,15 @@
-from dotenv import load_dotenv
-import os
-
+import streamlit as st
 from langchain_groq import ChatGroq
-
+import os
 from parser import parse_email, parse_email_text
 from tools import calculate_risk
 from prompts import SYSTEM_PROMPT
 from config import MODEL_NAME, TEMPERATURE
 
-# Load .env
-load_dotenv()
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
 llm = ChatGroq(
-    groq_api_key=os.getenv("GROQ_API_KEY"),
+    groq_api_key=GROQ_API_KEY,
     model=MODEL_NAME,
     temperature=TEMPERATURE
 )
